@@ -86,11 +86,7 @@ class Product implements Cloneable {
     }
 }
 
-class BuyOneGetOneFreeStrategy implements DiscountStrategy {
-    @Override
-    public double applyDiscount(double price) {
-        return price / 2;
-    }
+
 }
 
 //Cart class which has all the shopping cart functionalities
